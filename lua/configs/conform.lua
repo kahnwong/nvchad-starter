@@ -1,15 +1,15 @@
 local options = {
   formatters_by_ft = {
-    css = { "prettier" },
-    go = { "goimports", "gofmt" },
-    html = { "prettier" },
-    lua = { "stylua" },
+--     css = { "prettier" },
+--     go = { "goimports", "gofmt" },
+--     html = { "prettier" },
+--     lua = { "stylua" },
     markdown = { "prettier" },
     python = { "ruff_organize_imports", "ruff_format" },
-    rust = { "rustfmt" },
+--     rust = { "rustfmt" },
     sh = { "shfmt" },
     terraform = { "terraform_fmt" }, ["terraform-vars"] = { "terraform_fmt" },
-    vue = { "prettier" },
+--     vue = { "prettier" },
     yaml = { "prettier" },
   },
 

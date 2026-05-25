@@ -1,12 +1,12 @@
 local lint = require "lint"
 
 lint.linters_by_ft = {
-  css = { "stylelint" },
+--   css = { "stylelint" },
   dockerfile = { "hadolint" },
   html = { "htmlhint" },
   markdown = { "markdownlint-cli2" },
   terraform = { "tflint" },
-  vue = { "eslint_d", "stylelint" },
+--   vue = { "eslint_d", "stylelint" },
 }
 
 local function is_github_workflow()

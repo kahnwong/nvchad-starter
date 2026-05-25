@@ -1,25 +1,25 @@
 require("nvchad.configs.lspconfig").defaults()
 
-vim.lsp.config("rust_analyzer", {
-  settings = {
-    ["rust-analyzer"] = {
-      check = {
-        command = "clippy",
-      },
-    },
-  },
-})
+-- vim.lsp.config("rust_analyzer", {
+--   settings = {
+--     ["rust-analyzer"] = {
+--       check = {
+--         command = "clippy",
+--       },
+--     },
+--   },
+-- })
 
-vim.lsp.config("gopls", {
-  settings = {
-    gopls = {
-      analyses = {
-        unusedparams = true,
-      },
-      staticcheck = true,
-    },
-  },
-})
+-- vim.lsp.config("gopls", {
+--   settings = {
+--     gopls = {
+--       analyses = {
+--         unusedparams = true,
+--       },
+--       staticcheck = true,
+--     },
+--   },
+-- })
 
 vim.lsp.config("ruff", {
   init_options = {
@@ -53,17 +53,17 @@ vim.lsp.config("yamlls", {
 local servers = {
   "basedpyright",
   "bashls",
-  "cssls",
+--   "cssls",
   "docker_compose_language_service",
   "dockerls",
   "gh_actions_ls",
-  "golangci_lint_ls",
-  "gopls",
+--   "golangci_lint_ls",
+--   "gopls",
   "html",
   "ruff",
-  "rust_analyzer",
+--   "rust_analyzer",
   "terraformls",
-  "vue_ls",
+--   "vue_ls",
   "yamlls",
 }
 vim.lsp.enable(servers)
